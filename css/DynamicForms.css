@@ -1,0 +1,108 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    width: initial !important;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+		
+	background-color:#eee;
+	margin:0 auto;
+	background-image:url(/ngForms/bg.png);
+	background-repeat:repeat-x;
+	font-size:13px;
+}
+
+.btn a {
+	color: #fff;
+}
+
+form#OptOutForm { display:none; }
+
+form {
+	width:960px;
+
+	background-color:#fff;
+
+	margin:0 auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:15px;
+	-webkit-box-shadow: 7px 7px 7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 7px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 7px rgba(50, 50, 50, 0.75);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+
+	border : 1px solid #a6a6a6;
+
+}
+#header {
+	width:100%;
+	background-color:#cccccc;
+	text-align:center;	
+}
+#DynamicFormPanel table {
+		
+}
+
+#DynamicFormPanel table td {
+
+}
+
+h1 {
+	font-size:30px;	
+	/*color:#D5D6D5;*/
+}
+h2 {
+	font-size:24px;	
+}
+h3 {
+	border-bottom:1px solid #ccc;
+	font-size:18px;	
+}
+
+h4 {
+	/*color:#333333;*/
+	font-size:16px;
+}
+
+p {
+	font-size:13px;
+	line-height:20px;
+	
+	
+}
+
+.small {
+	font-size:13px;
+}
+
+.example {
+	background-color:#eee;
+	font-size:12px;
+	border: 1px solid #ddd;
+	margin:10px 0px;	
+}
+
+.example p {
+	margin:0px 4px 0px 0px;	
+}
+
+.labelRight {
+	text-align:right;
+	padding-right:15px;	
+}
+
+
+#UpdateInfoPanel:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
